@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://kit.fontawesome.com/7b5e455a7d.js" crossorigin="anonymous"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maket</title>
+    <link rel='stylesheet' href='./css/index.css'>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/csslider.css" />
+</head>
+<body>
+    <div class='app-wrapper'id='home'>
+        <div class="headerBox">
+            <nav class="navbar">
+                <a href="#home" class="navbar-item">Home</a>
+                <a href="#about-me" class="navbar-item">About me</a>
+                <a href="#skills" class="navbar-item">Skills</a>
+                <a href="#portfolio" class="navbar-item">Portfolio</a>
+                <a href="#contacts" class="navbar-item">Contacts</a>
+            </nav>
+            <hr style='max-width:1200px; margin:auto;'> 
+        </div>
+
+        <div class="homeBox"> 
+            <div class='name'>Nikolay Borzunov</div>
+            <div class='status'> Front-End Developer, 17 years old, Voronezh
+            </div>
+            <img src='./images/photo.png'class='homeBox-img'></img>
+        </div>
+
+        <div class='aboutmeBox' id='about-me'>
+            <div class='label'>About me</div>
+            <div class='body'>Hi, I'm Nikolay – Front-End Developer from Voronezh. 
+                <br>
+                I'm interested in web development and everything connected with it. 
+                <br> <br> <br>
+                I'm studying at courses "Computer Science" in <a  class='vivt-link' href='http://eng.vivt.ru/'>VIHT</a>. 
+                <br> <br> <br>
+                Ready to implement excellent projects with wonderful people.</div>
+
+        </div>
+        
+        <div class="skillsBox" id='skills'>
+            <div class='label'>My dev skills</div>
+            <div class='skills-wrapper'>
+                <div class='skill'>
+                    <div class='skill-head'>Languages</div>
+                    <div class='skill-body'>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>Python</li>
+                    </div>
+                </div>
+
+                <div class='skill'>
+                    <div class='skill-head'>Front-end technologies</div>
+                    <div class='skill-body'>
+                        <li>HTML / CSS: SASS, Stylus</li>
+                        <li>BEM / Adaptive Web Design</li>
+                        <li>React / Redux</li>
+                    </div>
+                </div>
+
+                <div class='skill'>
+                    <div class='skill-head'>Graphic Design</div>
+                    <div class='skill-body'>
+                        <li>Adobe: Photoshop, XD, Illustrator</li>
+                        <li>Figma</li>
+                    </div>
+                </div>
+
+                <div class='skill'>
+                    <div class='skill-head'>Others</div>
+                    <div class='skill-body'>
+                        <li>Git, Github / Linux </li>
+                        <li>Npm / Webpack</li>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="portfolioBox" id='portfolio'>
+            <div class='portfolio'>
+                <div class='label'>Portfolio</div>
+
+                <div class="csslider">
+                    <input type="radio" name="slides" id="slides_1" checked />
+                    <input type="radio" name="slides" id="slides_2" />
+                    <input type="radio" name="slides" id="slides_3" />
+                    <input type="radio" name="slides" id="slides_4" />
+                    <input type="radio" name="slides" id="slides_N" />
+                    <ul>
+                        <li><img src='./images/1.webp'></img></li>
+                        <li><img src='./images/2.webp'></img></li>
+                        <li><img src='./images/3.webp'></img></li>
+                        <li><img src='./images/4.webp'></img></li>
+                        <li><img src='./images/5.webp'></img></li>
+                    </ul>
+                    <div class="arrows">
+                        <label for="slides_1"></label>
+                        <label for="slides_2"></label>
+                        <label for="slides_3"></label>
+                        <label for="slides_4"></label>
+                        <label for="slides_N"></label>
+                        <label for="slides_1" class="goto-first"></label>
+                        <label for="slides_N" class="goto-last"></label>
+                    </div>
+                    <div class="navigation">
+                        <div>
+                            <label for="slides_1"></label>
+                            <label for="slides_2"></label>
+                            <label for="slides_3"></label>
+                            <label for="slides_4"></label>
+                            <label for="slides_N"></label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="contactsBox" id='contacts'>
+            <div class="contacts">
+                <div class='label'>Contacts</div>
+                <div class='body message'>Want to know more or just chat?
+                    <br>
+                    You are welcome!</div>
+                <div class='sendMsg'>
+                    <a title='email' href="mailto:n.borzunov36@gmail.com">Send Message</a>
+                </div>
+                <div class="iconbar">
+                    <ul>
+                        <li><a target="_blank" href='https://vk.com/tydusgg'> <i class="fab fa-vk"></i></a></li>
+                        <li><a target="_blank" href='404'> hh</a></li>
+                        <li><a target="_blank" href='https://t.me/nborzunov'> <i class="fab fa-telegram"></i> </a></li>
+                        <li><a target="_blank" href='https://github.com/tydusgg'> <i class="fab fa-github"></i> </a></li>
+                        <li><a target="_blank" href='404'> <i class="fab fa-behance"></i> </a></li>
+                        <li><a target="_blank" href='404'> <i class="fab fa-dribbble"></i> </a></li>
+                    </ul>
+                </div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+ 
+
+</body>
+</html>

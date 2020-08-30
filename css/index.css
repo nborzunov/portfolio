@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-family: 'Rubik', sans-serif; }
+
+.app-wrapper {
+  margin: auto; }
+  .app-wrapper .headerBox {
+    background: #F6F6F6; }
+    .app-wrapper .headerBox .navbar {
+      margin: auto;
+      max-width: 1200px;
+      display: grid;
+      text-align: center;
+      grid-template-columns: auto auto auto auto auto; }
+      .app-wrapper .headerBox .navbar .navbar-item {
+        border: 2px #F6F6F6 solid;
+        transition: all 2s;
+        box-sizing: border-box;
+        padding: 10px 0;
+        line-height: 25px;
+        font-size: 18px;
+        color: #828282;
+        font-family: 'Rubik';
+        font-weight: 800;
+        transition: all .5s ease; }
+        .app-wrapper .headerBox .navbar .navbar-item:hover {
+          color: #070707; }
+  .app-wrapper .homeBox {
+    max-width: 1200px;
+    margin: auto; }
+    .app-wrapper .homeBox .name {
+      margin-top: 40px;
+      color: #070707;
+      text-align: center;
+      padding: 20px 0;
+      font-size: 47px; }
+    .app-wrapper .homeBox .status {
+      color: #828282;
+      line-height: 22px;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 600;
+      padding: 20px 0;
+      padding-bottom: 40px; }
+    .app-wrapper .homeBox .homeBox-img {
+      width: 1200px;
+      margin-bottom: 80px;
+      display: grid;
+      grid-template-columns: auto; }
+  .app-wrapper .aboutmeBox {
+    background: #F6F6F6;
+    padding-bottom: 120px; }
+    .app-wrapper .aboutmeBox .label {
+      text-align: center;
+      padding: 80px 0 40px 0;
+      font-size: 34px;
+      line-height: 42px; }
+    .app-wrapper .aboutmeBox .body {
+      color: #828282;
+      line-height: 22px;
+      font-size: 18px;
+      margin: auto;
+      text-align: center; }
+    .app-wrapper .aboutmeBox .vivt-link {
+      color: #444; }
+    .app-wrapper .aboutmeBox .vivt-link:hover {
+      color: black; }
+  .app-wrapper .skillsBox {
+    margin: auto;
+    max-width: 1200px;
+    margin-bottom: 120px; }
+    .app-wrapper .skillsBox .label {
+      text-align: center;
+      padding: 80px 0 40px 0;
+      font-size: 34px;
+      line-height: 42px; }
+    .app-wrapper .skillsBox .skills-wrapper {
+      display: grid;
+      grid-template-areas: 'a b c d'; }
+      .app-wrapper .skillsBox .skills-wrapper .skill .skill-head {
+        font-size: 24px;
+        line-height: 22px;
+        margin: 20px 0; }
+      .app-wrapper .skillsBox .skills-wrapper .skill .skill-body {
+        color: #828282; }
+      .app-wrapper .skillsBox .skills-wrapper .skill .skill-body li {
+        padding: 5px 0; }
+  .app-wrapper .portfolioBox {
+    background-color: #F6F6F6; }
+    .app-wrapper .portfolioBox .portfolio {
+      padding-bottom: 120px;
+      margin: auto;
+      max-width: 1200px; }
+      .app-wrapper .portfolioBox .portfolio .label {
+        text-align: center;
+        padding: 80px 0 40px 0;
+        font-size: 34px;
+        line-height: 42px; }
+  .app-wrapper .contactsBox .contacts {
+    max-width: 1200px;
+    margin: auto;
+    padding-bottom: 120px;
+    text-align: center; }
+    .app-wrapper .contactsBox .contacts .label {
+      text-align: center;
+      padding: 80px 0 40px 0;
+      font-size: 34px;
+      line-height: 42px; }
+    .app-wrapper .contactsBox .contacts .body {
+      line-height: 22px;
+      font-size: 18px;
+      margin: auto;
+      text-align: center; }
+    .app-wrapper .contactsBox .contacts .message {
+      padding-bottom: 40px; }
+    .app-wrapper .contactsBox .contacts .sendMsg {
+      transition: all .5s ease;
+      border: 2px solid black;
+      width: 160px;
+      border-radius: 20px;
+      color: white;
+      background: #070707;
+      display: inline-block;
+      line-height: 42px;
+      position: relative;
+      margin-bottom: 80px;
+      box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5); }
+      .app-wrapper .contactsBox .contacts .sendMsg:hover {
+        background-color: #f2b195; }
+        .app-wrapper .contactsBox .contacts .sendMsg:hover a {
+          color: black; }
+      .app-wrapper .contactsBox .contacts .sendMsg a {
+        transition: all .5s ease;
+        text-decoration: none;
+        color: white;
+        padding: 6px 20px; }
+    .app-wrapper .contactsBox .contacts .iconbar {
+      background-color: black;
+      margin-bottom: 120px; }
+      .app-wrapper .contactsBox .contacts .iconbar ul {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex; }
+        .app-wrapper .contactsBox .contacts .iconbar ul li {
+          width: 50px;
+          margin: 0 15px;
+          border: 2px solid black;
+          border-radius: 20px;
+          list-style: none;
+          box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.5);
+          transition: all .5s ease; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li a {
+            transition: all .5s ease; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(1):hover {
+            background-color: #4680C2; }
+            .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(1):hover .fab {
+              color: white; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(2) {
+            font-family: 'Arial', sans-serif !important;
+            font-weight: 1000;
+            font-size: 28px;
+            line-height: 50px;
+            text-align: center; }
+            .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(2) a {
+              color: black; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(2):hover {
+            background: #d6001c; }
+            .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(2):hover a {
+              color: white; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(3):hover {
+            background-color: #0088cc; }
+            .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(3):hover .fab {
+              color: white; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(4):hover {
+            background-color: #24292e; }
+            .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(4):hover .fab {
+              color: white; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(5):hover {
+            background-color: #0057ff; }
+            .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(5):hover .fab {
+              color: white; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(6):hover {
+            background-color: #E94C88; }
+            .app-wrapper .contactsBox .contacts .iconbar ul li:nth-child(6):hover .fab {
+              color: white; }
+          .app-wrapper .contactsBox .contacts .iconbar ul li .fab {
+            color: black;
+            font-size: 30px;
+            max-width: 50px;
+            line-height: 50px;
+            transition: .5s; }
+
+/*# sourceMappingURL=index.css.map */
