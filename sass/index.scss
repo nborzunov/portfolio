@@ -17,8 +17,6 @@
             max-width:1200px;
             text-align:center;
             transition: all .3s ease;
-            position:sticky;
-            top:0;
             .navbar-item{
                 border: 2px #F6F6F6 solid;
                 transition: all 2s;
@@ -29,7 +27,7 @@
                 color: #828282;
                 font-family:'Rubik';
                 font-weight:800;
-                transition: all .5s ease;      
+                transition: color .5s ease;      
       
                 &:hover{
                     color: #070707;
