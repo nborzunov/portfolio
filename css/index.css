@@ -17,7 +17,6 @@
       transition: all .3s ease; }
       .app-wrapper .headerBox .navbar .navbar-item {
         border: 2px #F6F6F6 solid;
-        transition: all 2s;
         box-sizing: border-box;
         padding: 10px 0;
         line-height: 25px;
