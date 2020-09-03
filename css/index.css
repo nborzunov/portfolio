@@ -9,11 +9,14 @@
   .app-wrapper .headerBox {
     background: #F6F6F6; }
     .app-wrapper .headerBox .navbar {
+      display: grid;
+      grid-template-columns: auto auto auto auto auto;
       margin: auto;
       max-width: 1200px;
-      display: grid;
       text-align: center;
-      grid-template-columns: auto auto auto auto auto; }
+      transition: all .3s ease;
+      position: sticky;
+      top: 0; }
       .app-wrapper .headerBox .navbar .navbar-item {
         border: 2px #F6F6F6 solid;
         transition: all 2s;

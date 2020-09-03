@@ -11,11 +11,14 @@
     .headerBox{
         background: #F6F6F6;
         .navbar{
+            display:grid;
+            grid-template-columns: auto auto auto auto auto;
             margin:auto;
             max-width:1200px;
-            display:grid;
             text-align:center;
-            grid-template-columns:auto auto auto auto auto;
+            transition: all .3s ease;
+            position:sticky;
+            top:0;
             .navbar-item{
                 border: 2px #F6F6F6 solid;
                 transition: all 2s;
@@ -26,13 +29,19 @@
                 color: #828282;
                 font-family:'Rubik';
                 font-weight:800;
-                transition: all .5s ease;              
+                transition: all .5s ease;      
+      
                 &:hover{
-                    // border: 2px gray solid;
-                    // background-color:rgba(242,177,149, 0.5);
                     color: #070707;
                 }
             }
+            // &_fixed{
+
+            //     padding: 10px 0;
+            //     animation: showElement;
+            //     animation-duration: 3s;
+            //     z-index:10000;
+            // }
         }
     }
 
