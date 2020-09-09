@@ -33,8 +33,7 @@
         line-height: 25px;
         font-size: 18px;
         font-family: 'Rubik';
-        font-weight: 800;
-        transition: color .5s ease; }
+        font-weight: 800; }
   .app-wrapper .homeBox {
     max-width: 1200px;
     margin: auto;
