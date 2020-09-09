@@ -2,28 +2,39 @@
 <html lang="en">
 <head>
     <script src="https://kit.fontawesome.com/7b5e455a7d.js" crossorigin="anonymous"></script>
+    <script src='./js/jquery-3.5.1.js'></script>
+    <script src='./js/responsive-menu.js'></script>
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 
-    <title>Maket</title>
+    <title>Portfolio</title>
 
     <link rel='stylesheet' href='./css/index.css'>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,600;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/csslider.css" />
+    <link rel="stylesheet" href="./css/csslider.css">
+    <link rel='stylesheet' href='./css/responsive-menu.css'>
+
 </head>
 <body>
     <div class='app-wrapper'id='home'>
         <div class="headerBox">
-            <nav class="navbar">
-                <a href="#home" class="navbar-item">Home</a>
-                <a href="#about-me" class="navbar-item">About me</a>
-                <a href="#skills" class="navbar-item">Skills</a>
-                <a href="#portfolio" class="navbar-item">Portfolio</a>
-                <a href="#contacts" class="navbar-item">Contacts</a>
+            <nav class='navbar'>
+                <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>  
+                    
+                <ul class='menu'>
+                    <li><a href="#home" class="navbar-item">Home</a></li>
+                    <li><a href="#about-me" class="navbar-item">About me</a></li>
+                    <li><a href="#skills" class="navbar-item">Skills</a></li>
+                    <li><a href="#portfolio" class="navbar-item">Portfolio</a></li>
+                    <li><a href="#contacts" class="navbar-item">Contacts</a></li>
+
+                    
+                    
+                    
+                </ul>
             </nav>
-            <hr style='max-width:1200px; margin:auto;'> 
         </div>
 
         <div class="homeBox"> 
